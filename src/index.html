@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Todo App</title>
+    <link rel="stylesheet" href="TodoList.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="icon"
+      type="image/svg+xml"
+      href="https://cdn.jsdelivr.net/gh/twitter/twemoji@14.0.2/assets/svg/1f4dd.svg"
+    />
+    <style>
+      body {
+        font-family: "Roboto", Arial, sans-serif;
+        background: linear-gradient(120deg, #e0eafc 0%, #cfdef3 100%);
+        min-height: 100vh;
+        margin: 0;
+      }
+    </style>
+  </head>
+  <body>
+    <noscript>
+      <div style="text-align: center; margin-top: 2rem; color: #e74c3c">
+        <strong>JavaScript is required to run this app.</strong>
+      </div>
+    </noscript>
+    <div id="root"></div>
+    <footer
+      style="
+        text-align: center;
+        color: #888;
+        margin: 2rem 0 1rem 0;
+        font-size: 0.95rem;
+      "
+    >
+      Made with <span style="color: #e25555">&#10084;</span> by Your Name
+    </footer>
+    <script src="path/to/your/bundled/TodoList.js"></script>
+    <script>
+      // Assuming you use ReactDOM to render
+      ReactDOM.render(
+        React.createElement(TodoList),
+        document.getElementById("root")
+      );
+    </script>
+  </body>
+</html>
